@@ -60,7 +60,7 @@ Saya melakukan fetch data dengan dua cara:
 
 ---
 
-#### ⚡ API (Requests)
+#### ⚡ API (Requests) (Digunakan Untuk Store Final Data)
 
 1. **Temukan endpoint API**
    - Inspect element > Network tab > temukan endpoint yang merespons data course.
@@ -132,7 +132,11 @@ Contoh halaman detail yang lebih lengkap:
 
 ### Tantangan Pribadi
 
-Walau sudah bisa fetch lewat API, saya **tertantang untuk menyelesaikan semuanya via scraping**.  
+Walau sudah bisa fetch lewat API, saya **tertantang untuk melakukan hal yang sama via scraping**.
+Untuk mewujudkan ini, saya harus bisa:
+1. Mengambil semua konten course > diatasi dengan scroll konten
+2. Mengambil deskripsi course > diatasi dengan scraping di page detail, bukan main page
+
 Tantangan terberat: **scrape halaman detail** — karena:
 - Elemen kadang salah selector
 - Atau belum muncul (belum loaded)
