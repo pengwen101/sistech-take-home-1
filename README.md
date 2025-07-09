@@ -134,8 +134,8 @@ Contoh halaman detail yang lebih lengkap:
 
 Walau sudah bisa fetch lewat API, saya **tertantang untuk melakukan hal yang sama via scraping**.
 Untuk mewujudkan ini, saya harus bisa:
-1. Mengambil semua konten course > diatasi dengan scroll konten
-2. Mengambil deskripsi course > diatasi dengan scraping di page detail, bukan main page
+1. Mengambil semua konten course > diatasi dengan scroll konten. Proses ini memakan waktu cukup lama, yaitu ~26 menit. 
+2. Mengambil deskripsi course > diatasi dengan scraping di page detail, bukan main page. Proses ini juga memakan waktu lama sekali, (~200 menit). 
 
 Tantangan terberat: **scrape halaman detail** — karena:
 - Elemen kadang salah selector
