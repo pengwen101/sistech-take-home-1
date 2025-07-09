@@ -48,7 +48,7 @@ Saya melakukan fetch data dengan dua cara:
 
 2. **Scroll website**
    - Karena web bersifat dynamically loaded, perlu scroll untuk load semua course.
-   - Scroll dilakukan berulang dengan delay 6 detik agar lebih stabil.
+   - Scroll dilakukan berulang dengan delay 6 detik agar web tidak overload.
 
 3. **Ambil semua URL course**
    - Setelah scrolling selesai, ambil semua course URL.
